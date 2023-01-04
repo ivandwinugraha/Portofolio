@@ -15,7 +15,7 @@ const iconMenu = [
     url: "https://www.instagram.com/vandwi_/"
   },
   {
-    icon: <BsLinkedin/>,
+    icon: <BsLinkedin />,
     url: "https://www.instagram.com/vandwi_/"
   },
 ]
@@ -26,12 +26,18 @@ const Home = () => {
       {/* content */}
       <div className="relative z-10 h-[100%] w-[100%] flex flex-col items-center px-[5%] ">
 
-        <div className="grid grid-cols-2 w-[100%] h-[100%] ">
+        <div className="grid lg:grid-cols-2 grid-cols-cols-1 w-[100%] h-[100%] ">
 
           {/* kiri */}
           <div className="w-full  flex flex-col px-[20%] space-y-4 justify-center">
             <h1 className="text-6xl font-bold text-black">Hi There,</h1>
-            <h1 className="text-6xl font-bold text-black">Im Ivan Dwi<span className="text-orange-500 ml-3">Nugayha</span></h1>
+            <div className="text-6xl font-bold text-black flex flex-col lg:flex-row lg:space-x-3">
+              <p>Im</p>
+              <p>Ivan</p>
+              <p>Dwi</p>
+              <span className="text-orange-500 ">Nugayha</span>
+            </div>
+
             <p className="text-2xl text-black font-semibold">I am into <span className="text-red-700">Data Scientics</span></p>
 
             <span>
@@ -52,7 +58,7 @@ const Home = () => {
           </div>
 
           {/* kanan */}
-          <div className="w-full h- flex items-center justify-center ">
+          <div className="w-full lg:flex hidden items-center justify-center ">
             <div className="h-[350px] w-[350px] rounded rounded-full shadow shadow-xl flex items-center justify-center overflow-hidden">
               <img className="scale-[250%]" alt="ivan gay" src="/ivangay.jpg" />
             </div>
@@ -62,7 +68,7 @@ const Home = () => {
       </div>
 
       {/* background */}
-      <img src="/bg1.jpg" alt="error" className="w-[100%] h-screen fixed inset-0 z-0 rotate-180" />
+      <img src="/bg1.jpg" alt="error" className="w-[100%] h-full fixed inset-0 z-0 rotate-180" />
     </>
   );
 }
