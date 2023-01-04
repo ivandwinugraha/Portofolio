@@ -32,10 +32,7 @@ const Home = () => {
           <div className="w-full  flex flex-col px-0 lg:px-[20%] space-y-4 justify-center">
             <h1 className="text-3xl lg:text-6xl font-bold text-black">Hi There,</h1>
             <div className="text-3xl lg:text-6xl font-bold text-black flex flex-col lg:flex-row lg:space-x-3">
-              <p>Im</p>
-              <p>Ivan</p>
-              <p>Dwi</p>
-              <span className="text-orange-500 ">Nugayha</span>
+              <p>Im Ivan Dwi <span className="text-orange-500 ">Nugayha</span></p>
             </div>
 
             <p className="text-2xl text-black font-semibold">I am into <span className="text-red-700">Data Scientics</span></p>
