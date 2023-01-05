@@ -1,5 +1,6 @@
 import React from "react";
 import { BsTwitter, BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
+import Background from "../component/Background";
 
 const iconMenu = [
   {
@@ -24,12 +25,12 @@ const Home = () => {
   return (
     <>
       {/* content */}
-      <div className="relative z-10 h-[100%] w-[100%] flex flex-col items-center px-[5%] ">
+      <div className="relative z-10 h-[100%] w-[100%] flex flex-col items-center px-[5%] justify-center">
 
-        <div className="grid lg:grid-cols-2 grid-cols-cols-1 w-[100%] h-[100%] ">
+        <div className="grid lg:grid-cols-2 grid-cols-cols-1 w-[100%] lg:h-[100%] ">
 
           {/* kiri */}
-          <div className="w-full  flex flex-col px-0 lg:px-[20%] space-y-4 justify-center">
+          <div className="lg:order-1 order-2 w-full flex flex-col px-0 lg:px-[20%] space-y-4 justify-center lg:items-start items-center">
             <h1 className="text-3xl lg:text-6xl font-bold text-black">Hi There,</h1>
             <div className="text-3xl lg:text-6xl font-bold text-black flex flex-col lg:flex-row lg:space-x-3">
               <p>Im Ivan Dwi <span className="text-orange-500 ">Nugayha</span></p>
@@ -55,17 +56,16 @@ const Home = () => {
           </div>
 
           {/* kanan */}
-          <div className="w-full lg:flex hidden items-center justify-center ">
-            <div className="h-[350px] w-[350px] rounded rounded-full shadow shadow-xl flex items-center justify-center overflow-hidden">
-              <img className="scale-[250%]" alt="ivan gay" src="/ivangay.jpg" />
+          <div className="lg:order-2 order-1 w-full flex flex-col lg:pl-[20%] space-y-4 justify-center items-center py-10">
+            <div className="lg:h-[350px] lg:w-[350px] h-[230px] w-[230px] shadow shadow-xl rounded-full flex items-center justify-center overflow-hidden">
+              <img className="scale-[250%]" alt="error" src="/ivangay.jpg" />
             </div>
           </div>
         </div>
 
       </div>
 
-      {/* background */}
-      <img src="/bg1.jpg" alt="error" className="w-[100%] h-full fixed inset-0 z-0 rotate-180" />
+      <Background />
     </>
   );
 }
