@@ -23,7 +23,7 @@ const About = () => {
               <h1 className="text-6xl pb-2">Ivan Dwi Nugayha</h1>
               <p>Im a <span className="text-orange-500">Data Scientist</span></p>
             </div>
-            <p>Saya merupakan seorang gay yang tampan, pemberani, bertitit panjang, dan memiliki kepribadian yang menyenangkan.  juga merupakan seorang pembasmi wibu yang selalu berusaha memperjuangkan hak-hak komunitas LGBTQ+. Selain itu, ia juga merupakan seorang yang kompeten di bidangnya dan tidak pernah takut menghadapi tantangan. Saya juga merupakan seorang yang tak pernah menyerah dan selalu siap untuk terus maju.</p>
+            <p>I am a data scientist with a passion for storytelling. I believe that words and data are the two most powerful tools to change the world.</p>
           </div>
         </div>
       </div>
