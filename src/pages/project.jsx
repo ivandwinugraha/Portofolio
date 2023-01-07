@@ -1,4 +1,5 @@
 import React from "react";
+import Background from "../component/Background";
 
 const Project = () => {
   return (
@@ -51,7 +52,7 @@ const Project = () => {
         </div>
 
       </div>
-      <img src="/bg1.jpg" alt="error" className="w-screen w-screen fixed inset-0 z-0" />
+     <Background/>
     </>
   );
 }

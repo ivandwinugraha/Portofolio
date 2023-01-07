@@ -12,7 +12,7 @@ const About = () => {
           {/* kiri */}
           <div className="w-full flex flex-col md:pl-[20%] space-y-4 justify-center items-center py-5">
             <div className="hover:scale-[103%] duration-300 md:h-[350px] md:w-[350px] h-[200px] w-[200px] shadow shadow-xl rounded-full flex items-center justify-center overflow-hidden">
-              <img className="md:scale-[250%] scale-[150%]" alt="error" src="/ivangay.jpg" />
+              <img className="md:scale-[250%] scale-[150%]" alt="error" src="/ivan.jpg" />
             </div>
           </div>
 

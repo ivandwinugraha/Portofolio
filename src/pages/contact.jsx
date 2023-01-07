@@ -38,7 +38,7 @@ const Contact = () => {
             <a className='text-[#828282] hover:underline md:text-xl text-sm font-medium' href='https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=ivandwinugraha45@gmail.com'>ivandwinugraha45@gmail.com</a>
           </div>
 
-          {/* jangan disetuh tolol */}
+          {/* contact*/}
           <div className='flex md:flex-row flex-col md:space-x-0.5 space-y-1.5 md:space-y-0 overflow-x-auto w-full'>
             {contact.map((item, idx) => (
               <a href={item.url} key={idx} className={`w-full min-w-[100px] h-14 md:h-28 flex items-center bg-cover bg-center w-full`}>
@@ -51,7 +51,7 @@ const Contact = () => {
               </a>
             ))}
           </div>
-          {/* sampai sini jangan disentuh goblok */}
+          {/* */}
 
         </div>
 
