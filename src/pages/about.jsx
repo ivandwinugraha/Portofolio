@@ -20,7 +20,7 @@ const About = () => {
           <div className="w-full pt-4 flex flex-col md:pr-[20%] space-y-4 justify-center text-black">
             <div className="space-y-1 font-bold md:text-2xl text-lg">
               <p><span className="text-orange-500">Hello!</span>, my name is</p>
-              <h1 className="text-4xl md:text-6xl md:pb-2">Ivan Dwi Nugayha</h1>
+              <h1 className="text-4xl md:text-6xl md:pb-2">Ivan Dwi Nugraha</h1>
               <p>Im a <span className="text-orange-500">Data Scientist</span></p>
             </div>
             <p className="md:text-base text-sm">I am a data scientist with a passion for storytelling. I believe that words and data are the two most powerful tools to change the world.</p>
