@@ -66,7 +66,7 @@ const Project = () => {
         <div className="grid md:grid-cols-2 grid-cols-1 h-full w-full gap-4">
 
           {dataProject.map((user, idx) => (
-            <div className="bg-white md:h-80 h-40 w-full flex justify-between rounded-lg overflow-hidden shadow-lg" key={idx}>
+            <div className="saturate-0 hover:saturate-100 hover:scale-[101%] duration-300 bg-white md:h-80 h-40 w-full flex justify-between rounded-lg overflow-hidden shadow-lg" key={idx}>
               <div className="flex flex-col justify-between text-black w-full">
 
                 <div className="md:p-4 px-2 pt-2">
