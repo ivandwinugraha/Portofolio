@@ -1,12 +1,8 @@
 import React from "react";
-import { BsTwitter, BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 import Background from "../component/Background";
 
 const iconMenu = [
-  {
-    icon: <BsTwitter />,
-    url: "https://google.com"
-  },
   {
     icon: <BsGithub />,
     url: "https://github.com/ivandwinugraha"
