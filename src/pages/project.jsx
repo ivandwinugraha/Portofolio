@@ -6,28 +6,28 @@ const dataProject = [
     banner: "MachineLearning",
     title: "Pneumonia Detection",
     url: "https://github.com/ivandwinugraha/cbir-flaskcnn",
-    image: "/bapak1.jpg",
-    text: "Pada project ini, diagnosis Covid-19 didasari pada pemeriksaan dan evaluasi dengan computed tomograhpy (CT) dan chest x-ray(CXR) Pemeriksaan dan evaluasi menggunakan citra medis adalah pendekatan yang digunakan untuk mendiagnosis corona(COVID-19),dimana menggunakan gambar chest x-ray(CXR) diusulkan dengan beberapa metode untuk mendeteksi pneumonia sebagai gejala covid-19. Model yang digunakan adalah 2 layer CNN. Aplikasi ini mengunakan web framework flask lalu menggunakan heroku.",
-  },
-  {
-    banner: "MachineLearning",
-    title: "Pneumonia Detection",
-    url: "https://github.com/ivandwinugraha/cbir-flaskcnn",
-    image: "/bapak2.jpg",
-    text: "Tujuan penelitian ini penelitian kami adalah untuk mengembangkan dan mengoptimalkan penelitian sebelumnya menggunakan metode yang berbeda yakni LSTM-RNN, dan mendeteksi depresi pada tweet twitter indonesia. Dataset yang digunakan berjumlah 5.494 baris tweet, dimana data kelas normal berjumlah 2.747 baris tweet dan data depresi berjumlah 2.747 baris tweet setelah dilakukan balancing data, dataset sebelum digunakan data dilakukan proses preprocessing terlebih dahulu sebelum masuk ke proses pelatihan. Hasil dari penelitian dengan menggunakan metode LSTM-RNN memperoleh nilai presisi, recall, dan F1-score diperoleh masing-masing 86%, 86%, dan 86%, sedangkan akurasinya adalah 86%. Sistem deteksi ujaran depresi diharapkan dapat membantu menganalisa depresi masyarakat di media sosial.",
-  },
-  {
-    banner: "MachineLearning",
-    title: "Rice Leaf Diseases Detection",
-    url: "https://github.com/ivandwinugraha/cbir-flaskcnn",
-    image: "/bapak3.jpeg",
+    image: "/normal.jpeg",
     text: "Pada project ini, diagnosis Covid-19 didasari pada pemeriksaan dan evaluasi dengan computed tomograhpy (CT) dan chest x-ray(CXR) Pemeriksaan dan evaluasi menggunakan citra medis adalah pendekatan yang digunakan untuk mendiagnosis corona(COVID-19),dimana menggunakan gambar chest x-ray(CXR) diusulkan dengan beberapa metode untuk mendeteksi pneumonia sebagai gejala covid-19. Model yang digunakan adalah 2 layer CNN. Aplikasi ini mengunakan web framework flask lalu menggunakan heroku.",
   },
   {
     banner: "MachineLearning",
     title: "Deteksi Depresi Pada Tweat",
     url: "https://github.com/ivandwinugraha/cbir-flaskcnn",
-    image: "/bapak4.jpeg",
+    image: "/tweet.jpg",
+    text: "Tujuan penelitian ini penelitian kami adalah untuk mengembangkan dan mengoptimalkan penelitian sebelumnya menggunakan metode yang berbeda yakni LSTM-RNN, dan mendeteksi depresi pada tweet twitter indonesia. Dataset yang digunakan berjumlah 5.494 baris tweet, dimana data kelas normal berjumlah 2.747 baris tweet dan data depresi berjumlah 2.747 baris tweet setelah dilakukan balancing data, dataset sebelum digunakan data dilakukan proses preprocessing terlebih dahulu sebelum masuk ke proses pelatihan. Hasil dari penelitian dengan menggunakan metode LSTM-RNN memperoleh nilai presisi, recall, dan F1-score diperoleh masing-masing 86%, 86%, dan 86%, sedangkan akurasinya adalah 86%. Sistem deteksi ujaran depresi diharapkan dapat membantu menganalisa depresi masyarakat di media sosial.",
+  },
+  {
+    banner: "MachineLearning",
+    title: "Rice Leaf Diseases Detection",
+    url: "https://github.com/ivandwinugraha/cbir-flaskcnn",
+    image: "/leafbg.jpg",
+    text: "Pada project ini, diagnosis Covid-19 didasari pada pemeriksaan dan evaluasi dengan computed tomograhpy (CT) dan chest x-ray(CXR) Pemeriksaan dan evaluasi menggunakan citra medis adalah pendekatan yang digunakan untuk mendiagnosis corona(COVID-19),dimana menggunakan gambar chest x-ray(CXR) diusulkan dengan beberapa metode untuk mendeteksi pneumonia sebagai gejala covid-19. Model yang digunakan adalah 2 layer CNN. Aplikasi ini mengunakan web framework flask lalu menggunakan heroku.",
+  },
+  {
+    banner: "MachineLearning",
+    title: "Pneumonia Detection",
+    url: "https://github.com/ivandwinugraha/cbir-flaskcnn",
+    image: "/tweet.jpg",
     text: "Pada project ini, diagnosis Covid-19 didasari pada pemeriksaan dan evaluasi dengan computed tomograhpy (CT) dan chest x-ray(CXR) Pemeriksaan dan evaluasi menggunakan citra medis adalah pendekatan yang digunakan untuk mendiagnosis corona(COVID-19),dimana menggunakan gambar chest x-ray(CXR) diusulkan dengan beberapa metode untuk mendeteksi pneumonia sebagai gejala covid-19. Model yang digunakan adalah 2 layer CNN. Aplikasi ini mengunakan web framework flask lalu menggunakan heroku.",
   },
 ]
@@ -42,7 +42,7 @@ const Project = () => {
           {/* kiri */}
           <div className="w-full flex flex-col md:pl-[20%] space-y-4 justify-center items-center py-5">
             <div className="hover:scale-[103%] duration-300 md:h-[350px] md:w-[350px] h-[200px] w-[200px] shadow shadow-xl rounded-full flex items-center justify-center overflow-hidden">
-              <img className="md:scale-[250%] scale-[150%]" alt="error" src="/ivan.jpg" />
+              <img className="md:scale-[250%] scale-[150%]" alt="error" src="/ivan5.png" />
             </div>
           </div>
 
