@@ -43,7 +43,7 @@ const Home = () => {
 
             <div className="flex space-x-3 pt-4">
               {iconMenu.map((item, idx) => (
-                <a href={item.url} key={idx} className="p-3 bg-black text-blue-300 rounded rounded-full ">
+                <a href={item.url} key={idx} className="p-3 bg-black text-blue-300 hover:text-orange-500 duration-300 rounded rounded-full ">
                   {item.icon}
                 </a>
               ))}
