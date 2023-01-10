@@ -19,16 +19,16 @@ const dataProject = [
   {
     banner: "MachineLearning",
     title: "Rice Leaf Diseases Detection",
-    url: "https://github.com/ivandwinugraha/cbir-flaskcnn",
+    url: "https://github.com/ivandwinugraha/Tubes_ML",
     image: "/leafbg.jpg",
     text: "Pada project ini, diagnosis Covid-19 didasari pada pemeriksaan dan evaluasi dengan computed tomograhpy (CT) dan chest x-ray(CXR) Pemeriksaan dan evaluasi menggunakan citra medis adalah pendekatan yang digunakan untuk mendiagnosis corona(COVID-19),dimana menggunakan gambar chest x-ray(CXR) diusulkan dengan beberapa metode untuk mendeteksi pneumonia sebagai gejala covid-19. Model yang digunakan adalah 2 layer CNN. Aplikasi ini mengunakan web framework flask lalu menggunakan heroku.",
   },
   {
     banner: "MachineLearning",
-    title: "Pneumonia Detection",
-    url: "https://github.com/ivandwinugraha/cbir-flaskcnn",
-    image: "/tweet.jpg",
-    text: "Pada project ini, diagnosis Covid-19 didasari pada pemeriksaan dan evaluasi dengan computed tomograhpy (CT) dan chest x-ray(CXR) Pemeriksaan dan evaluasi menggunakan citra medis adalah pendekatan yang digunakan untuk mendiagnosis corona(COVID-19),dimana menggunakan gambar chest x-ray(CXR) diusulkan dengan beberapa metode untuk mendeteksi pneumonia sebagai gejala covid-19. Model yang digunakan adalah 2 layer CNN. Aplikasi ini mengunakan web framework flask lalu menggunakan heroku.",
+    title: "CINIC-10 Content-Based Image Retrieval",
+    url: "https://github.com/ivandwinugraha/TKC_CBIR",
+    image: "/cinic.png",
+    text: "Dalam penelitian ini, kami akan mengimplementasikan sistem CBIR dengan menggunakan database CINIC-10 dan model Convolutional Neural Network (CNN) VGG-16. CINIC-10 merupakan database citra yang terdiri dari 10 kelas, yaitu airplane, automobile, bird, cat, deer, dog, frog, horse, ship, dan truck. Sedangkan VGG-16 merupakan salah satu model CNN yang sudah terkenal dan sering digunakan dalam bidang pengolahan citra. Tujuan dari penelitian ini adalah untuk mengevaluasi kemampuan sistem CBIR yang kami implementasikan dalam menemukan citra yang sesuai dengan query yang diberikan. Kami juga akan membandingkan hasil yang diperoleh dengan menggunakan model VGG-16 dengan hasil yang diperoleh dengan menggunakan model CNN lainnya",
   },
 ]
 
@@ -42,7 +42,7 @@ const Project = () => {
           {/* kiri */}
           <div className="w-full flex flex-col md:pl-[20%] space-y-4 justify-center items-center py-5">
             <div className="hover:scale-[103%] duration-300 md:h-[350px] md:w-[350px] h-[200px] w-[200px] shadow shadow-xl rounded-full flex items-center justify-center overflow-hidden">
-              <img className="md:scale-[250%] scale-[150%]" alt="error" src="/ivan5.png" />
+              <img alt="error" src="/van1.jpg" />
             </div>
           </div>
 
@@ -55,7 +55,7 @@ const Project = () => {
                 <span className="text-black-500 ">my project</span>
               </h1>
             </div>
-            <p className="md:text-base text-sm">Berikut daftar proyek yang pernah saya kerjakan. Proyek </p>
+            <p className="md:text-base text-sm">Berikut daftar proyek yang pernah saya kerjakan. </p>
           </div>
         </div>
       </div>
